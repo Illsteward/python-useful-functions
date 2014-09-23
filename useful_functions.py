@@ -67,7 +67,7 @@ def binary_addition(*args):
     '''    
     return bin(sum(args))[2:]  
 
-def odds(array):
+def odds(list)
     '''
     Returns all odd members of a list in the same order they appeared in it.
     >>> odds([1,2,3,4,5,6,7,8,9,10])
@@ -76,10 +76,11 @@ def odds(array):
     
     return [i for i in array if i % 2 == 1]
     
-def evens(array):
+def evens(list)
     '''
     Returns all even members of a list in the same order they appeard in it.
-    
+    >>> evens([1,2,3,4,5,6,7,8,9,10])
+    [1,3,5,7,9]
     '''
     
     return [i for i in array if i % 2 == 0]
