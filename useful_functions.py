@@ -20,11 +20,12 @@ def isprime(n):
     8 is prime: False
     9 is prime: False
     10 is prime: False
+    
     '''   
     if n in [0, 1]:
         return False   
          
-    for i in range(2, n):
+    for i in range(2, n/2):
         if n % i == 0:
             return False
                 
@@ -65,6 +66,7 @@ def binary_addition(*args):
     '1100000'
     '''    
     return bin(sum(args))[2:]  
+
     
 
 if __name__ == "__main__": 
