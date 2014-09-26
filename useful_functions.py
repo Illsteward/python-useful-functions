@@ -74,7 +74,7 @@ def odds(list)
     [2,4,6,8,10]
     '''
     
-    return [i for i in array if i % 2 == 1]
+    return [i for i in list if i % 2 == 1]
     
 def evens(list)
     '''
@@ -83,7 +83,7 @@ def evens(list)
     [1,3,5,7,9]
     '''
     
-    return [i for i in array if i % 2 == 0]
+    return [i for i in list if i % 2 == 0]
 
     
 
